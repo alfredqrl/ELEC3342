@@ -1,0 +1,18 @@
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: D:/XILINX/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot delay_line_tb_behav xil_defaultlib.delay_line_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3813] value in initialization depends on signal 'a_seq' [D:/one drive for HKU/OneDrive - connect.hku.hk/HKU year 3 courses/sem1/ELEC3342/labs/lab4/elec3342lab4/tb/delay_line_tb.vhd:19]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package std.env
+Compiling architecture rtl of entity xil_defaultlib.delay_line [delay_line_default]
+Compiling architecture rtl of entity xil_defaultlib.delay_line_tb
+Built simulation snapshot delay_line_tb_behav

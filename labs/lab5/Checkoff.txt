@@ -1,0 +1,9 @@
+1.
+-- This FSM begin with OPEN state
+-- The state will move to ERROR
+-- The state will move to ERROR
+
+2.
+-- The FSM is in the  OPEN state
+-- Not change
+-- It is too tricky. I do not know

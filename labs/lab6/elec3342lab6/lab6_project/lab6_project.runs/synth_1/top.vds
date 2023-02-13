@@ -1,0 +1,228 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Thu Nov  3 18:27:45 2022
+# Process ID: 17804
+# Current directory: D:/one drive for HKU/OneDrive - connect.hku.hk/HKU year 3 courses/sem1/ELEC3342/labs/lab6/elec3342lab6/lab6_project/lab6_project.runs/synth_1
+# Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+# Log file: D:/one drive for HKU/OneDrive - connect.hku.hk/HKU year 3 courses/sem1/ELEC3342/labs/lab6/elec3342lab6/lab6_project/lab6_project.runs/synth_1/top.vds
+# Journal file: D:/one drive for HKU/OneDrive - connect.hku.hk/HKU year 3 courses/sem1/ELEC3342/labs/lab6/elec3342lab6/lab6_project/lab6_project.runs/synth_1\vivado.jou
+# Running On: Alfred-MateBook-14, OS: Windows, CPU Frequency: 2304 MHz, CPU Physical cores: 4, Host memory: 17000 MB
+#-----------------------------------------------------------
+source top.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1286.281 ; gain = 0.000
+Command: synth_design -top top -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 17468
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1286.281 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top' [D:/one drive for HKU/OneDrive - connect.hku.hk/HKU year 3 courses/sem1/ELEC3342/labs/lab6/elec3342lab6/elec3342lab6/rtl/top.vhd:16]
+INFO: [Synth 8-3491] module 'btn_debounce' declared at 'D:/one drive for HKU/OneDrive - connect.hku.hk/HKU year 3 courses/sem1/ELEC3342/labs/lab6/elec3342lab6/elec3342lab6/rtl/btn_debounce.vhd:5' bound to instance 'BTN1_DEBOUNCE' of component 'btn_debounce' [D:/one drive for HKU/OneDrive - connect.hku.hk/HKU year 3 courses/sem1/ELEC3342/labs/lab6/elec3342lab6/elec3342lab6/rtl/top.vhd:36]
+INFO: [Synth 8-638] synthesizing module 'btn_debounce' [D:/one drive for HKU/OneDrive - connect.hku.hk/HKU year 3 courses/sem1/ELEC3342/labs/lab6/elec3342lab6/elec3342lab6/rtl/btn_debounce.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'btn_debounce' (0#1) [D:/one drive for HKU/OneDrive - connect.hku.hk/HKU year 3 courses/sem1/ELEC3342/labs/lab6/elec3342lab6/elec3342lab6/rtl/btn_debounce.vhd:13]
+INFO: [Synth 8-3491] module 'btn_debounce' declared at 'D:/one drive for HKU/OneDrive - connect.hku.hk/HKU year 3 courses/sem1/ELEC3342/labs/lab6/elec3342lab6/elec3342lab6/rtl/btn_debounce.vhd:5' bound to instance 'BTN2_DEBOUNCE' of component 'btn_debounce' [D:/one drive for HKU/OneDrive - connect.hku.hk/HKU year 3 courses/sem1/ELEC3342/labs/lab6/elec3342lab6/elec3342lab6/rtl/top.vhd:37]
+INFO: [Synth 8-3491] module 'btn_debounce' declared at 'D:/one drive for HKU/OneDrive - connect.hku.hk/HKU year 3 courses/sem1/ELEC3342/labs/lab6/elec3342lab6/elec3342lab6/rtl/btn_debounce.vhd:5' bound to instance 'BTN3_DEBOUNCE' of component 'btn_debounce' [D:/one drive for HKU/OneDrive - connect.hku.hk/HKU year 3 courses/sem1/ELEC3342/labs/lab6/elec3342lab6/elec3342lab6/rtl/top.vhd:38]
+INFO: [Synth 8-3491] module 'lock' declared at 'D:/one drive for HKU/OneDrive - connect.hku.hk/HKU year 3 courses/sem1/ELEC3342/labs/lab6/elec3342lab6/elec3342lab6/rtl/lock.vhd:5' bound to instance 'lock_inst' of component 'lock' [D:/one drive for HKU/OneDrive - connect.hku.hk/HKU year 3 courses/sem1/ELEC3342/labs/lab6/elec3342lab6/elec3342lab6/rtl/top.vhd:39]
+INFO: [Synth 8-638] synthesizing module 'lock' [D:/one drive for HKU/OneDrive - connect.hku.hk/HKU year 3 courses/sem1/ELEC3342/labs/lab6/elec3342lab6/elec3342lab6/rtl/lock.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'lock' (0#1) [D:/one drive for HKU/OneDrive - connect.hku.hk/HKU year 3 courses/sem1/ELEC3342/labs/lab6/elec3342lab6/elec3342lab6/rtl/lock.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'top' (0#1) [D:/one drive for HKU/OneDrive - connect.hku.hk/HKU year 3 courses/sem1/ELEC3342/labs/lab6/elec3342lab6/elec3342lab6/rtl/top.vhd:16]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1286.281 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1286.281 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1286.281 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1286.281 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/one drive for HKU/OneDrive - connect.hku.hk/HKU year 3 courses/sem1/ELEC3342/labs/lab6/elec3342lab6/elec3342lab6/xdc/basys3.xdc]
+Finished Parsing XDC File [D:/one drive for HKU/OneDrive - connect.hku.hk/HKU year 3 courses/sem1/ELEC3342/labs/lab6/elec3342lab6/elec3342lab6/xdc/basys3.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/one drive for HKU/OneDrive - connect.hku.hk/HKU year 3 courses/sem1/ELEC3342/labs/lab6/elec3342lab6/elec3342lab6/xdc/basys3.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1296.492 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1296.492 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1296.492 ; gain = 10.211
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1296.492 ; gain = 10.211
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1296.492 ; gain = 10.211
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1296.492 ; gain = 10.211
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 4     
+	                1 Bit    Registers := 10    
++---Muxes : 
+	   2 Input    2 Bit        Muxes := 6     
+	   2 Input    1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:29 . Memory (MB): peak = 1296.492 ; gain = 10.211
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 1296.492 ; gain = 10.211
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:34 ; elapsed = 00:00:38 . Memory (MB): peak = 1296.492 ; gain = 10.211
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:34 ; elapsed = 00:00:38 . Memory (MB): peak = 1296.492 ; gain = 10.211
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:42 ; elapsed = 00:00:46 . Memory (MB): peak = 1296.492 ; gain = 10.211
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:42 ; elapsed = 00:00:46 . Memory (MB): peak = 1296.492 ; gain = 10.211
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:42 ; elapsed = 00:00:46 . Memory (MB): peak = 1296.492 ; gain = 10.211
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:42 ; elapsed = 00:00:46 . Memory (MB): peak = 1296.492 ; gain = 10.211
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:42 ; elapsed = 00:00:46 . Memory (MB): peak = 1296.492 ; gain = 10.211
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:42 ; elapsed = 00:00:46 . Memory (MB): peak = 1296.492 ; gain = 10.211
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    24|
+|3     |LUT1   |     4|
+|4     |LUT2   |     7|
+|5     |LUT3   |     3|
+|6     |LUT4   |    21|
+|7     |LUT5   |     5|
+|8     |LUT6   |    21|
+|9     |FDCE   |     9|
+|10    |FDRE   |   105|
+|11    |IBUF   |     5|
+|12    |OBUF   |     1|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:42 ; elapsed = 00:00:46 . Memory (MB): peak = 1296.492 ; gain = 10.211
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:28 ; elapsed = 00:00:43 . Memory (MB): peak = 1296.492 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:42 ; elapsed = 00:00:46 . Memory (MB): peak = 1296.492 ; gain = 10.211
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1296.492 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 24 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1296.492 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: 14eae1eb
+INFO: [Common 17-83] Releasing license: Synthesis
+25 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:49 ; elapsed = 00:01:04 . Memory (MB): peak = 1296.492 ; gain = 10.211
+INFO: [Common 17-1381] The checkpoint 'D:/one drive for HKU/OneDrive - connect.hku.hk/HKU year 3 courses/sem1/ELEC3342/labs/lab6/elec3342lab6/lab6_project/lab6_project.runs/synth_1/top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Nov  3 18:29:00 2022...

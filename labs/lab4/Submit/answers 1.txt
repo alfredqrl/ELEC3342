@@ -1,0 +1,2 @@
+1 flip-flop seen and it is a enabled D flip-flop
+There is a mux shown before the flip-flop

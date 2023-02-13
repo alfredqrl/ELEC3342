@@ -1,0 +1,2 @@
+There is only one D flip-flop in the delay_line_wrong, but there are four in the previous one.
+The main difference is that ":=" can only be used in variable assignment but "<=" can be used in signal assignment.

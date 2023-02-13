@@ -1,0 +1,12 @@
+
+{ 
+    crc :  1469431644973422188  , 
+    ccp_crc :  0  , 
+    cmdline : " --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot chkdiv12_behav xil_defaultlib.chkdiv12" , 
+    buildDate : "Apr 18 2022" , 
+    buildTime : "16:05:34" , 
+    linkCmd : "D:\\XILINX\\Vivado\\2022.1\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/chkdiv12_behav/xsimk.exe\"   \"xsim.dir/chkdiv12_behav/obj/xsim_0.win64.obj\" \"xsim.dir/chkdiv12_behav/obj/xsim_1.win64.obj\" -L\"D:\\XILINX\\Vivado\\2022.1\\lib\\win64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

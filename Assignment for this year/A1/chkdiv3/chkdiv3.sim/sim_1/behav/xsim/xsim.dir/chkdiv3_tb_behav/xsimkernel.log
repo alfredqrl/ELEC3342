@@ -1,0 +1,7 @@
+Running: xsim.dir/chkdiv3_tb_behav/xsimk.exe -simmode gui -wdb chkdiv3_tb_behav.wdb -simrunnum 0 -socket 52755
+Design successfully loaded
+Design Loading Memory Usage: 7424 KB (Peak: 7424 KB)
+Design Loading CPU Usage: 31 ms
+Simulation completed
+Simulation Memory Usage: 7876 KB (Peak: 7876 KB)
+Simulation CPU Usage: 31 ms

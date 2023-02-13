@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../elec3342lab5/rtl/lock.vhd" \
+"../../../../../elec3342lab5/tb/lock_tb.vhd" \
+
+# Do not sort compile order
+nosort

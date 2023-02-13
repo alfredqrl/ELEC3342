@@ -1,0 +1,2 @@
+Two flip-flops and the first is enabled D flip-flop and the other is simple D flip-flop
+The first flip-flop has three inputs but the second only has two inputs.

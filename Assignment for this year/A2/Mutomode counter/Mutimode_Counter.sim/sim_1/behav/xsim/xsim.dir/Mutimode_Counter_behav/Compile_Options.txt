@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "Mutimode_Counter_behav" "xil_defaultlib.Mutimode_Counter" -log "elaborate.log" 

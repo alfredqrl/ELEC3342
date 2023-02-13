@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../elec3342lab4/rtl/delay_line.vhd" \
+"../../../../../elec3342lab4/tb/delay_line_tb.vhd" \
+
+# Do not sort compile order
+nosort

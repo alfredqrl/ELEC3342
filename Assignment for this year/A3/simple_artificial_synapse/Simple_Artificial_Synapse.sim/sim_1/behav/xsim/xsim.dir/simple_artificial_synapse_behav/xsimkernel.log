@@ -1,0 +1,7 @@
+Running: xsim.dir/simple_artificial_synapse_behav/xsimk.exe -simmode gui -wdb simple_artificial_synapse_behav.wdb -simrunnum 0 -socket 62913
+Design successfully loaded
+Design Loading Memory Usage: 8048 KB (Peak: 8048 KB)
+Design Loading CPU Usage: 62 ms
+Simulation completed
+Simulation Memory Usage: 8484 KB (Peak: 8484 KB)
+Simulation CPU Usage: 93 ms

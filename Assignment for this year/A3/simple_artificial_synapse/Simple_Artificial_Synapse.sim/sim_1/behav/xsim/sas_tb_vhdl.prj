@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../simple_artificial_synapse.vhd" \
+"../../../../sas_tb.vhd" \
+
+# Do not sort compile order
+nosort

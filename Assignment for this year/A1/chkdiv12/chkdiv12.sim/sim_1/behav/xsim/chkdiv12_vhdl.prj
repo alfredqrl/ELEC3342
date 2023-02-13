@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../chkdiv3.vhd" \
+"../../../../../chkdiv12.vhd" \
+
+# Do not sort compile order
+nosort

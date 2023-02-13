@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Wed Oct  5 21:25:50 2022
+# Process ID: 12456
+# Current directory: D:/one drive for HKU/OneDrive - connect.hku.hk/HKU year 3 courses/sem1/ELEC3342/Assignment for this year/A_jk
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18288 D:\one drive for HKU\OneDrive - connect.hku.hk\HKU year 3 courses\sem1\ELEC3342\Assignment for this year\A_jk\A_jk.xpr
+# Log file: D:/one drive for HKU/OneDrive - connect.hku.hk/HKU year 3 courses/sem1/ELEC3342/Assignment for this year/A_jk/vivado.log
+# Journal file: D:/one drive for HKU/OneDrive - connect.hku.hk/HKU year 3 courses/sem1/ELEC3342/Assignment for this year/A_jk\vivado.jou
+# Running On: Alfred-MateBook-14, OS: Windows, CPU Frequency: 2304 MHz, CPU Physical cores: 4, Host memory: 17000 MB
+#-----------------------------------------------------------
+start_gui
+open_project {D:/one drive for HKU/OneDrive - connect.hku.hk/HKU year 3 courses/sem1/ELEC3342/Assignment for this year/A_jk/A_jk.xpr}
+update_compile_order -fileset sources_1

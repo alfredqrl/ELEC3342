@@ -1,0 +1,34 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Thu Nov  3 19:02:37 2022
+# Process ID: 8196
+# Current directory: D:/one drive for HKU/OneDrive - connect.hku.hk/HKU year 3 courses/sem1/ELEC3342/Assignment for this year/A2/part B/elec3342_hw2_src/symb_det
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5900 D:\one drive for HKU\OneDrive - connect.hku.hk\HKU year 3 courses\sem1\ELEC3342\Assignment for this year\A2\part B\elec3342_hw2_src\symb_det\symb_det.xpr
+# Log file: D:/one drive for HKU/OneDrive - connect.hku.hk/HKU year 3 courses/sem1/ELEC3342/Assignment for this year/A2/part B/elec3342_hw2_src/symb_det/vivado.log
+# Journal file: D:/one drive for HKU/OneDrive - connect.hku.hk/HKU year 3 courses/sem1/ELEC3342/Assignment for this year/A2/part B/elec3342_hw2_src/symb_det\vivado.jou
+# Running On: Alfred-MateBook-14, OS: Windows, CPU Frequency: 2304 MHz, CPU Physical cores: 4, Host memory: 17000 MB
+#-----------------------------------------------------------
+start_gui
+open_project {D:/one drive for HKU/OneDrive - connect.hku.hk/HKU year 3 courses/sem1/ELEC3342/Assignment for this year/A2/part B/elec3342_hw2_src/symb_det/symb_det.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config {D:/one drive for HKU/OneDrive - connect.hku.hk/HKU year 3 courses/sem1/ELEC3342/Assignment for this year/A2/part B/elec3342_hw2_src/symb_det/sym_det_tb_behav.wcfg}
+source sym_det_tb.tcl
+run all
+relaunch_sim
+run all
+close_sim
+launch_simulation
+open_wave_config {D:/one drive for HKU/OneDrive - connect.hku.hk/HKU year 3 courses/sem1/ELEC3342/Assignment for this year/A2/part B/elec3342_hw2_src/symb_det/sym_det_tb_behav.wcfg}
+source sym_det_tb.tcl
+run all
+relaunch_sim
+run 1000 us
+close_sim
+launch_simulation
+open_wave_config {D:/one drive for HKU/OneDrive - connect.hku.hk/HKU year 3 courses/sem1/ELEC3342/Assignment for this year/A2/part B/elec3342_hw2_src/symb_det/sym_det_tb_behav.wcfg}
+source sym_det_tb.tcl
+run 1000 us
+close_sim
